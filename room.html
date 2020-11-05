@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO相關 -->
+    <meta property="og:title" content="阿瀚的旅館訂房網"></meta>
+    <meta property="og:description" content="預定你的美好假期"></meta>
+    <meta property="og:url" content="https://observer1220.github.io/Hotel_Reservation_System/"></meta>
+    <meta property="og:type" content="website"></meta>
+    <meta property="og:image" content="https://github.com/observer1220/Hotel_Reservation_System/blob/master/img/Hotel_Reservation_System.png"></meta>
+
+
+    <title>阿瀚的旅館訂房網</title>
+    <!-- 以CDN載入axios.js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js'></script>
+    <!-- 以CDN載入flatpickr.css -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.6/flatpickr.min.css' />
+    <!-- 以CDN載入Bootstrap.css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- 以CDN載入jQuery.js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <!-- 以CDN載入flatpickr.js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.6/flatpickr.min.js'></script>
+    <!-- 以CDN載入Bootstrap.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+    <!-- 以CDN載入minireset -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css' />
+    <!-- 以CDN載入all.css -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/confetti.css">
+    <!-- Google特殊字型、font-awesome與Sweetalert -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="load">資料載入中...</div>
+            <div class="header">
+                <p>WHITE INN</p>
+            </div>
+            <div class="roomBox">
+                <ul class="roomType"></ul>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i><span>屏東縣恆春鎮萬里路280號</span></li>
+                    <li><i class="fas fa-phone-alt"></i><span>(08)234-5678</span></li>
+                    <li><i class="fas fa-envelope"></i><span>abcd@gmail.com</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/all.js"></script>
+</body>
+
+</html>

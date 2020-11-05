@@ -1,0 +1,316 @@
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .row .header {
+  font-family: "Amatic SC", cursive;
+  font-size: 120px;
+  margin-bottom: 10px;
+}
+
+.container .row .roomBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .row .roomBox .roomType {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.container .row .roomBox .roomType li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-right: 2px;
+}
+
+.container .row .roomBox .roomType li .roominfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .row .roomBox .roomType li .roominfo .roomImage {
+  width: 180px;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .row .roomBox .roomType li .roominfo .roominfoWord {
+  color: #777;
+}
+
+.container .row .roomBox .roomType li .roominfo .roomDescribe {
+  margin-top: 25px;
+}
+
+.container .row .roomBox .roomType li .roominfo a {
+  text-decoration: none;
+  color: blue;
+}
+
+.container .row .roomBox .roomType li .detailImageGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+}
+
+.container .row .roomBox .roomType li .detailImageGroup .detailImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 485px;
+  height: 574px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 30px;
+}
+
+.container .row .roomBox .roomType li .detailImageGroup .imageThumbnail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+}
+
+.container .row .roomBox .roomType li .detailImageGroup .imageThumbnail .detailImage2 {
+  width: 240px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .row .roomBox .roomType li .detailImageGroup .imageThumbnail .detailImage3 {
+  width: 240px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 5px;
+}
+
+.container .row .roomBox .roomType li .detailInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 55%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .detailText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #777;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .detailText .detailTitle {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .detailText .detailDescribe {
+  margin-bottom: 20px;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px;
+  margin-right: 1rem;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .reservePrice {
+  text-align: right;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .reservePrice .reservePriceStyle {
+  font-weight: 600;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .personNameUser {
+  position: relative;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .personNameUser .personName {
+  padding: 10px;
+  outline: none;
+  text-indent: 20px;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .personNameUser::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f007";
+  font-size: 14px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .personNameUser input {
+  width: 308px;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .personTelUser {
+  position: relative;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .personTelUser .personTel {
+  padding: 10px;
+  outline: none;
+  text-indent: 20px;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .personTelUser::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f879";
+  font-size: 14px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .personTelUser input {
+  width: 308px;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .CheckInDateUser {
+  position: relative;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .CheckInDateUser .checkInDate {
+  padding: 10px;
+  outline: none;
+  text-indent: 20px;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .CheckInDateUser::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f073";
+  font-size: 14px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .CheckInDateUser input {
+  width: 308px;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .reserveButton {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .reserveButton:hover {
+  background: black;
+  color: white;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .cancelButton {
+  padding: 10px;
+  margin-top: 2px;
+  border: none;
+  outline: none;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailMain .reserveForm .cancelButton:hover {
+  background: black;
+  color: white;
+}
+
+.container .row .roomBox .roomType li .detailInfo .detailLogoGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 180px;
+  padding-top: 10px;
+  border-top: 1px solid #777;
+}
+
+.container .row .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f5f5f5;
+  font-weight: 700;
+  width: 100%;
+}
+
+.container .row .footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.container .row .footer ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #777;
+  padding: 20px;
+  padding-right: 150px;
+}
+
+.container .row .footer ul li span {
+  padding-left: 5px;
+}

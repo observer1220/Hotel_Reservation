@@ -1,0 +1,214 @@
+.container {
+    .row {
+        display: flex;
+        justify-content: center;
+        .header {
+            font-family: "Amatic SC", cursive;
+            font-size: 120px;
+            margin-bottom: 10px;
+        }
+        .roomBox {
+            display: flex;
+            .roomType {
+                display: flex;
+                margin-bottom: 30px;
+                li {
+                    display: flex;
+                    width: 100%;
+                    margin-right: 2px;
+                    .roominfo {
+                        display: flex;
+                        flex-direction: column;
+                        .roomImage {
+                            width: 180px;
+                            height: 220px;
+                            object-fit: cover;
+                        }
+                        .roominfoWord {
+                            color: #777;
+                        }
+                        .roomDescribe {
+                            margin-top: 25px;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: blue;
+                        }
+                    }
+                    .detailImageGroup {
+                        display: flex;
+                        flex-direction: column;
+                        width: 45%;
+                        .detailImage {
+                            display: flex;
+                            width: 485px;
+                            height: 574px;
+                            object-fit: cover;
+                            margin-right: 30px;
+                        }
+                        .imageThumbnail {
+                            display: flex;
+                            margin-top: 5px;
+                            .detailImage2 {
+                                width: 240px;
+                                height: 100px;
+                                object-fit: cover;
+                            }
+                            .detailImage3 {
+                                width: 240px;
+                                height: 100px;
+                                object-fit: cover;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                    .detailInfo {
+                        display: flex;
+                        flex-direction: column;
+                        width: 55%;
+                        font-family: "Noto Sans", sans-serif;
+                        .detailMain {
+                            display: flex;
+                            justify-content: space-between;
+                            .detailText {
+                                display: flex;
+                                flex-direction: column;
+                                color: #777;
+                                .detailTitle {
+                                    font-size: 36px;
+                                    margin-bottom: 30px;
+                                }
+                                .detailDescribe {
+                                    margin-bottom: 20px;
+                                }
+                            }
+                            .reserveForm {
+                                display: flex;
+                                flex-direction: column;
+                                margin-left: 10px;
+                                margin-right: 1rem;
+                                .reservePrice {
+                                    text-align: right;
+                                    padding-top: 30px;
+                                    margin-bottom: 10px;
+                                    .reservePriceStyle {
+                                        font-weight: 600;
+                                    }
+                                }
+                                .personNameUser {
+                                    position: relative;
+                                    .personName {
+                                        padding: 10px;
+                                        outline: none;
+                                        text-indent: 20px;
+                                    }
+                                    &::before {
+                                        font-family: "Font Awesome 5 Free";
+                                        font-weight: 900;
+                                        content: "\f007";
+                                        font-size: 14px;
+                                        position: absolute;
+                                        left: 10px;
+                                        top: 50%;
+                                        transform: translateY(-50%);
+                                    }
+                                    input {
+                                        width: 308px;
+                                    }
+                                }
+                                .personTelUser {
+                                    position: relative;
+                                    .personTel {
+                                        padding: 10px;
+                                        outline: none;
+                                        text-indent: 20px;
+                                    }
+                                    &::before {
+                                        font-family: "Font Awesome 5 Free";
+                                        font-weight: 900;
+                                        content: "\f879";
+                                        font-size: 14px;
+                                        position: absolute;
+                                        left: 10px;
+                                        top: 50%;
+                                        transform: translateY(-50%);
+                                    }
+                                    input {
+                                        width: 308px;
+                                    }
+                                }
+                                .CheckInDateUser {
+                                    position: relative;
+                                    .checkInDate {
+                                        padding: 10px;
+                                        outline: none;
+                                        text-indent: 20px;
+                                    }
+                                    &::before {
+                                        font-family: "Font Awesome 5 Free";
+                                        font-weight: 900;
+                                        content: "\f073";
+                                        font-size: 14px;
+                                        position: absolute;
+                                        left: 10px;
+                                        top: 50%;
+                                        transform: translateY(-50%);
+                                    }
+                                    input {
+                                        width: 308px;
+                                    }
+                                }
+                                .reserveButton {
+                                    padding: 10px;
+                                    border: none;
+                                    outline: none;
+                                    &:hover {
+                                        background: black;
+                                        color: white;
+                                    }
+                                }
+                                .cancelButton {
+                                    padding: 10px;
+                                    margin-top: 2px;
+                                    border: none;
+                                    outline: none;
+                                    &:hover {
+                                        background: black;
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                        .detailLogoGroup {
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin-top: 180px;
+                            padding-top: 10px;
+                            border-top: 1px solid #777;
+                        }
+                    }
+                }
+            }
+        }
+        .footer {
+            display: flex;
+            background: #f5f5f5;
+            font-weight: 700;
+            width: 100%;
+            ul {
+                display: flex;
+                margin: 0 auto;
+                li {
+                    display: flex;
+                    align-items: center;
+                    color: #777;
+                    padding: 20px;
+                    padding-right: 150px;
+                    span {
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
